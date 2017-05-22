@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登录</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/ly.css">
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var window_height=$("body").height();
+			console.log(window_height);
+			var form_height=$("#row").height();
+			console.log(form_height);
+			$("#row").css("marginTop",(window_height-form_height-50)/2);
+		})
+	</script>
+</head>
+<body class="ly_bg">
+
+<div class="row" style="margin-right:0px;margin-left:0px;" id="row">
+	<div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
+		<form class="form-horizontal">
+		  	<div class="form-group">
+		    <label class="col-sm-4 col-sm-offset-0  control-label col-xs-10 col-xs-offset-1" style="color:white">账号</label>
+		    <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+		      <input type="text" class="form-control" placeholder="请输入账号">
+		    </div>
+		  	</div>
+		  	<div class="form-group">
+		    <label class="col-sm-4 col-sm-offset-0  control-label col-xs-10 col-xs-offset-1" style="color:white">密码</label>
+		    <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+		      <input type="password" class="form-control"  placeholder="请输入密码">
+		    </div>
+		    </div>
+		    <div class="form-group">
+			    <label class="col-sm-4 col-sm-offset-0 control-label col-xs-10 col-xs-offset-1" style="color:white">验证码</label>
+			    <div class="col-sm-3 col-sm-offset-0 col-xs-4 col-xs-offset-1" >
+			      <input type="password" class="form-control">
+			    </div>
+			    <div class="col-sm-3 col-xs-4">
+					<img src="images/check1.png" style="height:35px">
+			    </div>
+		    </div>
+		    <div class="form-group">
+		    	<div class="col-sm-6 col-sm-offset-4"><button class="btn btn-info btn-block">登录</button></div>
+		    </div>
+		    <div class="form-group">
+		    	<div class="col-sm-6 col-sm-offset-8">
+		    		<a href="ly_changepassword.html" style="color:white; margin-right:20px;">修改密码</a>
+		    		<a href="ly_forgetpassword.html" style="color:white">重置密码</a>
+		    		<p class="error-login">此处填写错误信息</p>
+		    	</div>
+		    </div>
+		</form>
+
+	</div>
+</div>
+<div class="bottom">
+	<p>
+		<a>管理员登录</a>
+		<a>学生登录</a>
+	</p>
+</div>
+</body>
+</html>

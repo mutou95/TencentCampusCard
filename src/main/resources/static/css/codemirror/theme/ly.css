@@ -1,0 +1,91 @@
+.ly_p{
+	font-size: 18px;
+	margin-left: 80px;
+	color: #787878;
+}
+.page a{
+	padding:10px;
+	border-radius: 10px;
+	border:#E6E6E6 1px solid;
+	display: inline-block;
+	color:white;
+	background: #356F94;
+	cursor: pointer;
+}
+.page a:hover{
+	background: #344294;
+}
+.nav-parent{
+	font-size:20px;
+}
+.children a{
+	font-size:16px ! important;
+}
+.ly-select{
+	display: inline;
+	width: auto;
+}
+.lyhide{
+	display: none ! important;
+}
+.edit{
+	cursor: pointer;
+}
+.edit:hover{
+	text-decoration: underline;
+}
+.first-tr thead{
+	text-align: center;
+	font-weight: bold;
+}
+.table-hover{
+	cursor: pointer;
+}
+.fa-select{
+	padding-left: 20px;
+}
+.table-center{
+	text-align: center;
+}
+.table-select p{
+	padding:5px;
+	border:1px solid black;
+	border-radius: 10px;
+}
+.table-edit-textarea{
+	width: 100%;
+	height: 200px;
+}
+input[type=file]{
+	display: inline-block;
+}
+.fa-cog:hover,.fa-angle-down:hover,.fa-angle-up:hover{
+	color:red;
+}
+.addContent{
+	z-index: 999;
+	position: fixed;
+	left:0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	font-weight: bold;
+	background: rgba(0,0,0,0.8);
+}
+.addContent form{
+	margin:auto;
+	width: 60%;
+	padding: 20px;
+	background: rgba(255,255,255,0.6);
+	border-radius: 10px;
+	border:1px solid white;
+	
+	margin-top: 140px;
+}
+.addContent form textarea{
+	width: 100%;
+	height: 200px;
+}
+.right{
+	float:right;
+}

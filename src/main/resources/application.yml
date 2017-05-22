@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/campuscard
+    username: root
+    password: "0000"
+  jpa:
+    hibernate:
+      ddl-auto: create
+      show-sql: true
+  application:
+    name: tencentcampuscard
+  jmx:
+    server:
+      port: 8080

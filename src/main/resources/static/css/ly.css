@@ -1,0 +1,28 @@
+.ly_bg{
+  background:url("../images/ly.jpg") no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+body,html{
+  height: 100%;
+  width: 100%;
+  overflow-y:hidden;
+}
+.bottom{
+	position: fixed;
+	bottom: 10px;
+	text-align: center;
+	width:100%;
+}
+.bottom a{
+	color: white;
+	margin-left: 20px;
+}
+.bottom a:hover{
+	color: red;
+}
+.error-login{
+	color:red;
+	padding-top:5px;
+}
